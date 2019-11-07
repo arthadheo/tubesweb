@@ -3,8 +3,8 @@ You can also upload existing files from your computer using the instructions bel
 
 
 Git global setup
-git config --global user.name "Dheo Artha"
-git config --global user.email "madza204@gmail.com"
+git config --global user.name "username"
+git config --global user.email "@gmail.com"
 
 Create a new repository
 git clone https://gitlab.com/Zorexso/tugas_web.git
