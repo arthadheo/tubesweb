@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB KELOMPK - Dashboard</title>
+  <title>SB KELOMPOK - Dashboards</title>
 
   <!-- Custom fonts for this template-->
   <link href="<?php echo base_url('assets/fontawesome-free/css/all.min.css" rel="stylesheet') ?>" rel="stylesheet">
@@ -246,7 +246,7 @@
                 </tfoot>
                 <tbody>
                   <tr>
-                    <td>Tiger Nixon</td>
+                    <td>Tiger Nixon Cider</td>
                     <td>System Architect</td>
                     <td>Edinburgh</td>
                     <td>61</td>
