@@ -283,7 +283,7 @@
                     <td>Tokio</td>
                     <td>33</td>
                     <td>2008/11/28</td>
-                    <td>$162,700</td>
+                    <td>$163,700</td>
                   </tr>
                   <tr>
                     <td>Brielle Williamson</td>
