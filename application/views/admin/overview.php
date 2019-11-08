@@ -246,7 +246,7 @@
                 </tfoot>
                 <tbody>
                   <tr>
-                    <td>Tiger Nixon</td>
+                    <td>Tiger Nixon Cider</td>
                     <td>System Architect</td>
                     <td>Edinburgh</td>
                     <td>61</td>
