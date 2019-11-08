@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB KELOMPOK - Dashboard</title>
+  <title>SB KELOMPOK - Dashboards</title>
 
   <!-- Custom fonts for this template-->
   <link href="<?php echo base_url('assets/fontawesome-free/css/all.min.css" rel="stylesheet') ?>" rel="stylesheet">
