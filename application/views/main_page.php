@@ -1,43 +1,7 @@
-<!DOCTYPE html>
-<html>
+    <!-- halaman footer -->
+    <link href="<?php echo base_url ('css/sb-admin.css') ?>" rel="stylesheet">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Groceria</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
-    <link rel="stylesheet" href="assets/css/Brands.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
-    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/untitled-1.css">
-    <link rel="stylesheet" href="assets/css/untitled-2.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
-</head>
-
-<body style="height: 983;opacity: 1;font-size: 24;">
-    <div class="brands"></div>
-    <div>
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-            <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1"><img class="img-fluid" src="assets/img/logo%20groceria.png" width="150" height="100">
-                    <ul class="nav navbar-nav mx-auto" style="background-color: #fbfbfb;">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Beranda</a></li>
-                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Belanja</a>
-                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
-                        </li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Tentang Kami</a></li>
-                    </ul><input type="search" style="border-color: #f6f5f5;opacity: 1;border-radius: 20px;width: 265px;font-size: 14px;padding: 4px;"><span class="navbar-text actions" style="width: 10px;"> </span><i class="fa fa-search" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
-                    <span
-                        class="navbar-text actions" style="width: 10px;"> </span><i class="fa fa-shopping-cart" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i></div>
-            </div>
-        </nav>
-    </div><img class="d-inline" width="55%" height="250px" src="assets/img/2660154.jpg" style="margin-left: 32px;width: 55%;max-width: 55%;">
+    <img class="d-inline" width="55%" height="250px" src="assets/img/2660154.jpg" style="margin-left: 32px;width: 55%;max-width: 55%;">
     <div class="container d-inline-block float-right justify-content-center align-items-center align-content-center" style="width: 40%;height: 250px;">
         <p class="text-center">Masuk</p>
         <div class="form-group text-center d-block justify-content-center align-items-center align-content-center"><input class="border rounded float-none" type="email" style="width: 80%;height: 46px;padding-left: 8px;" placeholder="email"><input class="border rounded" type="password" style="width: 80%;height: 46px;margin-top: 20px;padding-left: 8px;font-size: 14px;"
@@ -103,21 +67,4 @@
             </div>
         </div>
     </div>
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-            </ul>
-            <p class="copyright">Company Name © 2017</p>
-        </footer>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+    
