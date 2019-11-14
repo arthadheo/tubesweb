@@ -11,7 +11,7 @@
 
     }
 
-    public function registration () {
+    public function main () {
         //load view footer
         //$this->load->view("templates/header");
         $this->load->view("main/belanja");
