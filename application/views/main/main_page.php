@@ -6,7 +6,9 @@
         <p class="text-center">Masuk</p>
         <div class="form-group text-center d-block justify-content-center align-items-center align-content-center"><input class="border rounded float-none" type="email" style="width: 80%;height: 46px;padding-left: 8px;" placeholder="email"><input class="border rounded" type="password" style="width: 80%;height: 46px;margin-top: 20px;padding-left: 8px;font-size: 14px;"
                 placeholder="password"><button class="btn btn-primary btn-lg border rounded rounded_new" type="button" style="margin-top: 20px;background-color: #ea4335;width: 30%;height: 40px;font-size: 17px;">Masuk</button>
-            <p class="text-center" style="width: 100%;">Belum punya akun ? Registrasi</p>
+        </div>
+        <div>
+            <a href="<?= base_url('main/belanja');?>">Belum punya akun ? Registrasi</a>
         </div>
     </div>
     <div class="container" style="margin-top: 20px;height: 250px;width: 100%;max-width: 100%;"><img style="width: 45%;height: 250px;margin-right: 2.5%;" src="assets/img/75086004-food-background-cooking-ingredient-kitchen-concept-meal-vegetarian-vegetable-health-top-view-space-b.jpg"><img style="width: 50%;height: 250px;margin-left: 10 px;" src="assets/img/slice-delicious-pizza-with-ingredients-textured-wooden-background_23-2147926094.jpg"></div>
