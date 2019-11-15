@@ -5,6 +5,6 @@
 
     public function index () {
         //load view admin/overview.php
-        $this->load->view("search/overview");
+        $this->load->view("Listitem");
     }
 }

@@ -8,7 +8,7 @@
                 placeholder="password"><button class="btn btn-primary btn-lg border rounded rounded_new" type="button" style="margin-top: 20px;background-color: #ea4335;width: 30%;height: 40px;font-size: 17px;">Masuk</button>
         </div>
         <div>
-            <a href="<?php echo base_url()?>">Belum punya akun ? Registrasi</a>
+            <a href="<?php echo base_url('signup')?>">Belum punya akun ? Registrasi</a>
         </div>
     </div>
     <div class="container" style="margin-top: 20px;height: 250px;width: 100%;max-width: 100%;"><img style="width: 45%;height: 250px;margin-right: 2.5%;" src="assets/img/75086004-food-background-cooking-ingredient-kitchen-concept-meal-vegetarian-vegetable-health-top-view-space-b.jpg"><img style="width: 50%;height: 250px;margin-left: 10 px;" src="assets/img/slice-delicious-pizza-with-ingredients-textured-wooden-background_23-2147926094.jpg"></div>

@@ -5,6 +5,6 @@
 
     public function index () {
         //load view admin/overview.php
-        $this->load->view("sign_in/sign_in");
+        $this->load->view("Shop");
     }
 }

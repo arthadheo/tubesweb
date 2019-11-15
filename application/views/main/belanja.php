@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -39,4 +39,5 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
-</html>
+</html> -->
+<h1>ini belanja</h1>
