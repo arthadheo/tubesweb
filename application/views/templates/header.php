@@ -282,7 +282,7 @@
     </style>
 </head>
 
-<body style="height: 983;opacity: 1;font-size: 24;">
+<body style="height: 983;opacity: 1;font-size: 24; background-color: white">
     <div class="brands"></div>
     <div>
         <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
