@@ -22,10 +22,10 @@
 
     }
 
-    public function belanja_daging () {
+    public function belanja () {
         //load view footer
         $this->load->view("templates/header");
-        $this->load->view("main/belanja_daging");
+        $this->load->view("main/belanja");
         $this->load->view("templates/footer");
 
     }
