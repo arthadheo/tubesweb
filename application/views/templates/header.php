@@ -295,14 +295,6 @@
                         </li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Tentang Kami</a></li>
                     </ul><input type="search" style="border-color: #f6f5f5;opacity: 1;border-radius: 20px;width: 265px;font-size: 14px;padding: 4px;"><span class="navbar-text actions" style="width: 10px;"> </span><i class="fa fa-search" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
-<<<<<<< HEAD
-                    <span
-                        class="navbar-text actions" style="width: 10px;"> </span>
-                        <i class="fa fa-shopping-cart" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;">
-                    </i><span class="navbar-text actions" style="width: 10px;"> </span>
-                    <i class="fa fa-user" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
-                </div>
-=======
                     <span class="navbar-text actions" style="width: 10px;"> </span>
                         <i class="fa fa-shopping-cart" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
                     <span class="navbar-text actions" style="width: 10px;"> </span>
@@ -326,7 +318,6 @@
                         </div>  
                         </div>
                     </div>
->>>>>>> 359f3300b3ecb02026b603dfc1b3656fa38b0a6b
             </div>
         </nav>
     </div>
