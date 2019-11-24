@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'mainpage';
 $route['daftar'] = 'mainpage/daftar';
-$route['belanja_daging'] = 'mainpage/belanja_daging';
+$route['belanja_daging'] = 'mainpage/belanja';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
