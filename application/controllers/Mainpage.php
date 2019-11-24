@@ -14,6 +14,22 @@
 
     }
 
+    public function daftar () {
+        //load view footer
+        $this->load->view("templates/header");
+        $this->load->view("main/daftarakun");
+        $this->load->view("templates/footer");
+
+    }
+
+    public function belanja_daging () {
+        //load view footer
+        $this->load->view("templates/header");
+        $this->load->view("main/belanja_daging");
+        $this->load->view("templates/footer");
+
+    }
+
     // public function main () {
     //     //load view footer
     //     //$this->load->view("templates/header");

@@ -1,23 +1,4 @@
-<body style="height: 983;opacity: 1;font-size: 24;">
-    
-    <div class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col"><img src="assets/img/image.png" style="width: 100%;height: 100%;"></div>
-            </div>
-        </div>
-    </div>
-    <div class="container" style="height: 10px;width: 100%;"></div>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6" style="width: 100%;height: 200px;"><img style="width: 100%;height: 200px;" src="assets/img/image.png"></div>
-                <div class="col-md-6"><img style="width: 100%;height: 200px;" src="assets/img/image.png"></div>
-            </div>
-        </div>
-    </div>
-    <div class="container" style="max-width: 100%;width: 100%;height: 10px;"></div>
-    <div class="container">
+<div class="container">
         <div class="row" style="margin-top: 20px;">
             <div class="col">
                 <div class="card-group" style="padding: 0 px;">
