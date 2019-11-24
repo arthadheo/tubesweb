@@ -4,7 +4,7 @@
     <div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6"><img class="d-lg-flex justify-content-lg-center align-items-lg-center" src="<?php echo base_url('assets/img/undraw_happy_feeling_slmw.png')?>" style="width: 100%;height: 100%;"></div>
+                <div class="col-md-6"><img class="d-lg-flex justify-content-lg-center align-items-lg-center" src="assets/img/undraw_happy_feeling_slmw.png" style="width: 100%;height: 100%;"></div>
                 <div class="col-md-6">
                     <div class="d-lg-flex justify-content-lg-center" style="width: 100%;height: 100%;">
                         <form style="width: 100&amp;;height: 100%;">
