@@ -289,7 +289,7 @@
             <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1"><img class="img-fluid" src="assets/img/logo%20groceria.png" width="150" height="100">
                     <ul class="nav navbar-nav mx-auto" style="background-color: #fbfbfb;">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Beranda</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="<?php echo base_url('mainpage')?>">Beranda</a></li>
                         <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Belanja</a>
                             <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
                         </li>
@@ -312,7 +312,7 @@
                                 <input type="password" name="password" class="password form-control" placeholder="password"/>
                                 <input class="btn login" type="submit" value="Login" />
                                 </form>
-                                <a href="<?php base_url('daftar')?>"> belum punya akun? daftar disini </a>
+                                <a href="<?php echo base_url('daftar')?>"> belum punya akun? daftar disini </a>
                             </div>
                             </div>
                         </div>  
