@@ -3,7 +3,7 @@
     <div class="text-center">
         <div class="container">
             <div class="row">
-                <div class="col"><img src="assets/img/image.png" style="width: 100%;height: 100%;"></div>
+                <div class="col"><img src="<?php echo base_url('assets/img/image.png')?>" style="width: 100%;height: 100%;"></div>
             </div>
         </div>
     </div>
@@ -11,8 +11,8 @@
     <div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6" style="width: 100%;height: 200px;"><img style="width: 100%;height: 200px;" src="assets/img/image.png"></div>
-                <div class="col-md-6"><img style="width: 100%;height: 200px;" src="assets/img/image.png"></div>
+                <div class="col-md-6" style="width: 100%;height: 200px;"><img style="width: 100%;height: 200px;" src="<?php echo base_url('assets/img/image.png')?>"></div>
+                <div class="col-md-6"><img style="width: 100%;height: 200px;" src="<?php echo base_url('assets/img/image.png')?>"></div>
             </div>
         </div>
     </div>  

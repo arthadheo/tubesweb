@@ -1,6 +1,6 @@
 <?php
 
-class Customer_model extends CI_Model{
+class Barang_model extends CI_Model{
 
     private $_table = "Customer";
 

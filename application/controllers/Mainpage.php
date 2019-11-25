@@ -15,12 +15,6 @@
 
     }
 
-    public function Registration(){
-        $this->load->view("templates/header");
-        $this->load->view("main/daftarakun");
-        $this->load->view("templates/footer");
-    }
-
     public function belanja () {
         //load view footer
         $this->load->view("templates/header");
