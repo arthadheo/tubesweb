@@ -15,117 +15,27 @@
                 <div class="col-md-6"><img style="width: 100%;height: 200px;" src="<?php echo base_url('assets/img/image.png')?>"></div>
             </div>
         </div>
-    </div>
+    </div>  
     <div class="container" style="max-width: 100%;width: 100%;height: 10px;"></div>
-    <div class="container">
-        <div class="row" style="margin-top: 20px;">
-            <div class="col">
-                <div class="card-group" style="padding: 0 px;">
-
-                    <?php for($i = 0;$i < 3; $i++){
-                        echo('<div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>');    
-                    }?>
-                    
-                </div>
+    
+    <div class="container" style="margin-top: 20px;">
+        <div class="row">
+            <?php
+            $query = $this->db->query('SELECT nama_barang, harga, img_barang, id_barang FROM barang' );
+            foreach($query->result() as $row){
+                $this->load->database();
+            
+                    echo '
+                    <div class="col-md-3" style="width: 100%;height: 320px;">
+                        <div class="card" style="width: 100%;height: 100%;margin-right: 0px;"><img class="card-img-top w-100 d-block" style="width: 100%;height: 220px;" src="assets/img/market/' . $row->img_barang.'">
+                            <h4 style="font-size: 15px;margin-left: 5px;">'. $row->nama_barang . '</h4>
+                            <p style="margin-left: 5px;margin-bottom: 5px;color: rgb(0,0,0);">Rp.'. $row->harga . '</p><button class="btn btn-primary text-left border-white shadow-none d-lg-flex justify-content-lg-center align-items-xl-center" type="button" style="height: 35px;font-size: 14px;width: 90%;margin-left: 12px;background-color: #ea4335;">add to cart&nbsp;<i class="fa fa-cart-plus" style="font-size: 16px;"></i></button></div>
+                    </div>';
+                }?>
             </div>
-        </div>
-        <div class="row" style="margin-top: 20px;">
-            <div class="col">
-                <div class="card-group" style="padding: 0 px;">
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="margin-top: 20px;">
-            <div class="col">
-                <div class="card-group" style="padding: 0 px;">
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-right: 5px;margin-top: 5 px;margin-bottom: 5 px;margin-left: 5 px;"><img class="card-img-top w-100 d-block" src="assets/img/persegi.png">
-                        <div class="card-body" style="height: 250px;">
-                            <h4 class="card-title">Daging Sapi</h4>
-                            <p class="card-text">Rp. 10.000</p><button class="btn btn-primary text-center border rounded-circle" type="button" style="background-color: #ea4335;width: 36px;height: 36px;">+</button><button class="btn btn-primary text-center border rounded-circle"
-                                type="button" style="background-color: #ea4335;width: 36px;height: 36px;">-</button>
-                            <p class="text-right card-text">3</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>  
     </div>
+
+        
+    </div>
+    <div class="footer-basic">
