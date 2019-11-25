@@ -21,7 +21,10 @@ class Customer_model extends CI_Model{
 
             ['field' => 'email',
             'label' => 'Email',
-            'rules' => 'required'],
+            'rules' => 'required|is_unique[Customer.email]',
+            'errors' => [
+                'is_unique' => 'This email has already registered']
+            ],    
 
             ['field' => 'password',
             'label' => 'Password',
@@ -53,20 +56,19 @@ class Customer_model extends CI_Model{
         ];
     }
 
-    // public function getAll()
-    // {
-    //     return $this->db->get($this->_table)->result();
-    // }
+    public function getAll()
+    {
+        return $this->db->get($this->_table)->result();
+    }
     
-    // public function getByEmail($email)
-    // {
-    //     return $this->db->get_where($this->_table, ["email" => $email])->row();
-    // }
+    public function getAccount($email, $password)
+    {
+        $this->db->where("email", $email);
+        $this->db->where("password", $password);
+        return $this->db->get($this->_table)->row_array();
 
-    // public function setCart($cart)
-    // {
-    //     return $this->db->get_where($this->_table, ["cart_id" => $cart])->row();
-    // }
+    }
+
 
     public function daftar()
     {
@@ -80,17 +82,27 @@ class Customer_model extends CI_Model{
         $this->db->insert($this->_table, $this);
     }
 
-    // public function update()
-    // {
-    //     $post = $this->input->post();
-    //     $this->email = $post["email"];
-    //     $this->name = $post["fullname"];
-    //     $this->alamat = $post["alamat"];
-    //     $this->nomortelepon = $post["phone"];
-    //     $this->cart = $post["cart_id"];
+    public function login()
+    {
+        $post = $this->input->post();
+        $this->email = $post["email"];
+        $this->password = $post["password"];
+        
+        $customers = $this->getAccount($this->email, $this->password);
 
-    //     $this->db->update($this->_table, $this, array('email' => $post['email']));
-    // }
+        if(empty($customers)){
+            echo('<script>alert("Password and Username Salah")</script>');
+        }
+        else{
+
+            $_SESSION['fullname'] = $customers['fullname'];
+            $_SESSION['email'] = $customers['email'];
+            $_SESSION['alamat'] = $customers['alamat'];
+            $_SESSION['phone'] = $customers['phone'];
+
+        }
+        
+    }
 
 }
 
