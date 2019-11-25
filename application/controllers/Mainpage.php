@@ -2,6 +2,7 @@
     defined('BASEPATH') OR exit('No direct script access allowed');
 
     class Mainpage extends CI_Controller {
+
     public function __construct () {
         parent ::__construct();
     }
@@ -14,12 +15,10 @@
 
     }
 
-    public function daftar () {
-        //load view footer
+    public function Registration(){
         $this->load->view("templates/header");
         $this->load->view("main/daftarakun");
         $this->load->view("templates/footer");
-
     }
 
     public function belanja () {
@@ -30,11 +29,4 @@
 
     }
 
-    // public function main () {
-    //     //load view footer
-    //     //$this->load->view("templates/header");
-    //     $this->load->view("main/belanja");
-    //     //$this->load->view("templates/footer");
-
-    // }
 }

@@ -298,7 +298,7 @@
                     <span class="navbar-text actions" style="width: 10px;"> </span>
                         <i class="fa fa-shopping-cart" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
                     <span class="navbar-text actions" style="width: 10px;"> </span>
-                    <a class="login-trigger fa fa-user" href="#" data-target="#login" data-toggle="modal"></a>
+                    <a class="login-trigger fa fa-user" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;" href="#" data-target="#login" data-toggle="modal"></a>
 
                         <div id="login" class="modal fade" role="dialog">
                         <div class="modal-dialog">

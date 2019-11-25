@@ -1,4 +1,6 @@
-<div class="text-center">
+<body style="height: 983;opacity: 1;font-size: 24;">
+    
+    <div class="text-center">
         <div class="container">
             <div class="row">
                 <div class="col"><img src="assets/img/image.png" style="width: 100%;height: 100%;"></div>
