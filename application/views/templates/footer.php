@@ -11,8 +11,8 @@
             <p class="copyright">Groceria © 2019</p>
         </footer>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url('assets/js/jquery.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js')?>"></script>
 </body>
 
 </html>
