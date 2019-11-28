@@ -59,4 +59,5 @@ class Authorization extends CI_Controller
         }
     }
 
+    
 }

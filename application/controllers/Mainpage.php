@@ -23,4 +23,12 @@
 
     }
 
+    public function MyCart()
+    {   
+        $this->load->view("templates/header");
+        $this->load->view("main/mycart");
+        $this->load->view("templates/footer");
+    }
+
+
 }
