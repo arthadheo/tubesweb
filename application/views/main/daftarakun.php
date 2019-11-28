@@ -11,7 +11,7 @@
                 <div class="col-md-6">
                     <div class="d-lg-flex justify-content-lg-center" style="width: 100%;height: 100%;">
 
-                    <form method = "post" action="<?php echo base_url('Authorization/SignUp');?>"  style="width: 100&amp;;height: 100%;">
+                    <form method = "post" action="<?php echo base_url('Authorization/SignUp');?>"  style="width: 100%;height: 100%; margin-top: 5%">
 
                         <div class = "form group" style="height: 38px;margin-bottom: 25px;">
                             <input class="form-control <?php echo form_error('fullname') ? 'is-invalid':'' ?>" id = "name" name = "fullname" type="text" style="width: 100%;" placeholder="Full name">
@@ -43,7 +43,7 @@
 								<?php echo form_error('alamat') ?>
 							</div>
                         </div>
-                        <Button class="btn btn-primary btn-lg border rounded d-lg-flex justify-content-lg-center align-items-lg-center rounded_new" type="submit" style="margin-top: 20px;background-color: #ea4335;width: 40%;height: 40px;font-size: 17px;" value = "add">Daftar</button>
+                        <Button class="btn btn-primary btn-lg border rounded d-lg-flex justify-content-lg-center align-items-lg-center rounded_new" type="submit" style="margin-top: 20px;background-color: #ea4335;width: 40%;height: 40px;font-size: 17px; margin-left: 35%" value = "add">Daftar</button>
                         <!-- <div class="d-lg-flex justify-content-lg-center" style="height: 38px;margin-bottom: 25px;">
                             
                         </div> -->
