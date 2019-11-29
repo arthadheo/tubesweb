@@ -60,7 +60,6 @@ class Authorization extends CI_Controller
         }
     }
 
-<<<<<<< HEAD
     public function SignOut(){
 
         $_SESSION['fullname'] = '';
@@ -73,7 +72,4 @@ class Authorization extends CI_Controller
 
 
 
-=======
-    
->>>>>>> d9563669ac887c3622908109375945c633029722
 }
