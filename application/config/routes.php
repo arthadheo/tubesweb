@@ -52,6 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'mainpage';
 $route['registration'] = 'Registration';
 $route['belanja'] = 'mainpage/belanja';
+$route['mycart'] = 'mainpage/mycart';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 

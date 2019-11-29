@@ -30,8 +30,15 @@
 								<?php echo form_error('alamat') ?>
 							</div>
                         </div>
+<<<<<<< HEAD:application/views/main/form_signup.php
                         <Button class="btn btn-primary btn-lg border rounded d-lg-flex justify-content-lg-center align-items-lg-center rounded_new" type="submit" style="margin-top: 20px;background-color: #ea4335;width: 40%;height: 40px;font-size: 17px; margin-bottom: 30px;" value = "add">Daftar</button>
                         <a style = "color:#235A81" href="<?php echo base_url('Authorization/SignIn')?>"> Sudah punya akun? Sign in disini </a>
+=======
+                        <Button class="btn btn-primary btn-lg border rounded d-lg-flex justify-content-lg-center align-items-lg-center rounded_new" type="submit" style="margin-top: 20px;background-color: #ea4335;width: 40%;height: 40px;font-size: 17px; margin-left: 35%" value = "add">Daftar</button>
+                        <!-- <div class="d-lg-flex justify-content-lg-center" style="height: 38px;margin-bottom: 25px;">
+                            
+                        </div> -->
+>>>>>>> d9563669ac887c3622908109375945c633029722:application/views/main/daftarakun.php
                     </form>
                 </div>
             </div>
