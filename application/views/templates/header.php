@@ -291,46 +291,36 @@
                     <ul class="nav navbar-nav mx-auto" style="background-color: #fbfbfb;">
                         <li class="nav-item" role="presentation"><a class="nav-link" href="<?php echo base_url('mainpage')?>">Beranda</a></li>
                         <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Belanja</a>
-                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" role="presentation" 
+                                href="<?php echo base_url('content/item/1')?>">Daging</a><a class="dropdown-item" role="presentation" 
+                                href="<?php echo base_url('content/item/4')?>">Ikan</a><a class="dropdown-item" role="presentation"
+                                href="<?php echo base_url('content/item/5')?>">Bumbu</a><a class="dropdown-item" role="presentation"
+                                href="<?php echo base_url('content/item/2')?>">Buah</a><a class="dropdown-item" role="presentation"   
+                                href="<?php echo base_url('content/item/3')?>">Sayur</a>
+                            </div>
                         </li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Tentang Kami</a></li>
                     </ul><input type="search" style="background-color: #fbfbfb ; border-color: #f6f5f5;opacity: 2;border-radius: 20px;width: 265px;font-size: 14px;padding: 4px; "><span class="navbar-text actions" style="width: 10px;"> </span><i class="fa fa-search" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
                     <span class="navbar-text actions" style="width: 10px;"> </span>
                         <i class="fa fa-shopping-cart" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
                     <span class="navbar-text actions" style="width: 10px;"> </span>
-                    <a class="login-trigger fa fa-user" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;" href="#" data-target="#login" data-toggle="modal"></a>
+                    <?php 
+                    
+                    if (isset($_SESSION['email'])){
 
-                    <div id="login" class="modal fade" role="dialog">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <button data-dismiss="modal" class="close">&times;</button>
-                                    <h4 style="margin-bottom: 25px;">Login</h4>
-                                    <form method = "post" action="<?php echo base_url('Authorization/SignIn');?>">
-                                    <div class = "form group" style="height: 38px;margin-bottom: 25px;">
-                                        <input type="text" name="email" class="username form-control <?php echo form_error('email') ? 'is-invalid':'' ?>" placeholder="Email"/>
-                                            <div class="invalid-feedback">
-								                <?php echo form_error('fullname') ?>
-							                </div>
-							        </div>
-                                    <div class = "form group" style="height: 38px;margin-bottom: 20px;">
-                                        <input type="password" name="password" class="username form-control <?php echo form_error('password') ? 'is-invalid':'' ?>" placeholder="Password"/>
-                                            <div class="invalid-feedback">
-								                <?php echo form_error('fullname') ?>
-							                </div>
-							        </div>
-                                    <button class="btn btn-primary btn-lg border rounded d-lg-flex justify-content-lg-center align-items-lg-center rounded_new" style="margin-top: 10px; margin-bottom: 10px; background-color: #ea4335;width: 20%;height: 38px;font-size: 14px;" type="submit" value="SignIn">SignIn</button>
-                                    </form>
-                                    <a style = "color:#235A81" href="<?php echo base_url('Authorization/SignUp')?>"> Belum punya akun? daftar disini </a>
-                                </div>
-                            </div>
-                        </div>  
-                    </div>
-                 </div>
-            </div>
-        </nav>
-    </div>
+                        if($_SESSION['email'] == ''){
+                            $this->load->view("main/modal_non_signin");
+                        }
+                        else{
+                            $this->load->view("main/modal_signIn");
+                        }
 
-  
-</body>
-</html>
+                    }
+                    else{
+                        $this->load->view("main/modal_non_signin");
+                    }
+                    
+                    
+                    ?>
+                    
