@@ -91,6 +91,7 @@ class Customer_model extends CI_Model{
         $customers = $this->getAccount($this->email, $this->password);
 
         if(empty($customers)){
+            
             echo('<script>alert("Password and Username Salah")</script>');
         }
         else{

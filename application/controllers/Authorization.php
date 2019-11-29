@@ -14,7 +14,8 @@ class Authorization extends CI_Controller
     public function index()
     {
         $this->load->view("templates/header");
-        $this->load->view("main/daftarakun");
+        $this->load->view("main/authorization");
+        $this->load->view("main/form_signin");
         $this->load->view("templates/footer");
     }
 
@@ -26,13 +27,14 @@ class Authorization extends CI_Controller
 
         if ($validation->run() == false) {
             $this->load->view("templates/header");
-            $this->load->view("main/daftarakun");
+            $this->load->view("main/authorization");
+            $this->load->view("main/form_signup");
             $this->load->view("templates/footer");
         }
         else{
             $customer->daftar();
             $this->session->set_flashdata('success', 'Berhasil disimpan');
-            redirect();
+            redirect('Authorization');
 
         }
     }
@@ -45,18 +47,29 @@ class Authorization extends CI_Controller
 
         if ($validation->run() == false) {
             $this->load->view("templates/header");
-            $this->load->view("main/main_page");
+            $this->load->view("main/authorization");
+            $this->load->view("main/form_signin");
             $this->load->view("templates/footer");
         }
         else{
 
             $data = $customer->login();
-            
-            $this->load->view("templates/header");
-            $this->load->view("main/main_page");
-            $this->load->view("templates/login_succes");
-            $this->load->view("templates/footer");
+            $this->session->set_flashdata('success', 'Berhasil disimpan');
+            redirect();
+
         }
     }
+
+    public function SignOut(){
+
+        $_SESSION['fullname'] = '';
+        $_SESSION['email'] = '';
+        $_SESSION['alamat'] = '';
+        $_SESSION['phone'] = '';
+
+        redirect('Authorization');
+    }
+
+
 
 }
