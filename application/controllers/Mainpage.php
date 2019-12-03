@@ -37,4 +37,25 @@
         $this->load->view("templates/footer");
     }
 
+    public function Checkout()
+    {   
+        $this->load->view("templates/header");
+        $this->load->view("main/checkout");
+        $this->load->view("templates/footer");
+    }
+
+    public function InputResep()
+    {   
+        $this->load->view("templates/header");
+        $this->load->view("main/resep");
+        $this->load->view("templates/footer");
+    }
+
+    public function InputTutorial()
+    {   
+        $this->load->view("templates/header");
+        $this->load->view("main/menulis_resep");
+        $this->load->view("templates/footer");
+    }
+
 }
