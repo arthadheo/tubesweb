@@ -21,7 +21,7 @@
                         <hr size="100%">
 					<h3>Email</h3>
 					<p class="zm-desc-e_gamify zm-mb_r-3 zm-font-left zm-font-s_16 zm-lh-23">
-                       <span class="zm-font-500">madza204@gmail.id</span></a>
+                       <span class="zm-font-500">madza204@gmail.com</span></a>
                     </p>
                     <hr size="100%">
 					<h3>No. Telp</h3>
