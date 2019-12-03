@@ -30,5 +30,11 @@
         $this->load->view("templates/footer");
     }
 
+    public function TentangKami(){
+
+        $this->load->view("templates/header");
+        $this->load->view("main/tentangkami");
+        $this->load->view("templates/footer");
+    }
 
 }
