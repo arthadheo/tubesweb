@@ -43,7 +43,8 @@
                 <h5 class="text-break">Rp '. number_format($row->harga).'</h5>
             </div>
             <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center">
-                <h5 class="text-break">Rp. '. number_format($row->harga*$row->kuantitas).'</h5>
+                <h5class="text-break text-left d-xl-flex align-items-xl-center" style="margin-right: 35px;">Rp. '. number_format($row->harga*$row->kuantitas).'</h5>
+                <button class="btn btn-primary border rounded-circle border-white d-xl-flex justify-content-xl-center align-items-xl-center" type="button" style="background-color: rgb(234,67,53);width: 30px;height: 30px;"><i class="fa fa-trash" style="width: 12px;height: 12px;"></i></button>
             </div>
         </div>
     </div>
