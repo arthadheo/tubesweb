@@ -4,7 +4,7 @@
             <ul class="list-inline">
                 <li class="list-inline-item btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Email</li>
                 <li class="list-inline-item btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Whatsapp</li>
-                <li class="list-inline-item btn btn-info btn-lg" ><a href="<?php echo base_url('/tentangkami')?>">About</a></li>
+                <li class="list-inline-item btn btn-info btn-lg"><a href="<?php echo base_url('/tentangkami')?>">About</a></li>
             </ul>
             <p class="copyright">Groceria © 2019</p>
         </footer>

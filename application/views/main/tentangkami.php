@@ -24,7 +24,7 @@
                 <div class="row">
                     <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/dheo1.jpg" style="width: 120px;height: 120px;"></div>
                 </div>
-                <h6 class="text-center name"><b>Dheo Arta</b></h6>
+                <h6 class="text-center name"><b>Dheo Artha</b></h6>
                 <p class="text-center title">Front End Developer</p>
                 <p class="description">Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application. </p>
             </div>
