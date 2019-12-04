@@ -49,8 +49,26 @@ class Cart extends CI_Controller
         foreach($listBarang as $row){
             $total = $total + ($row->harga * $row->kuantitas);
         }
+        //$_SESSION['totalBarang'] = $total;
         echo number_format( $total);
+        
+    }
 
+    public function getTotal(){
+
+        $email = $_SESSION['email'];
+        $listBarang = $this->db->query("SELECT 
+        barang.harga,cart_item.kuantitas
+        FROM barang 
+        INNER JOIN cart_item 
+        ON barang.id_barang =cart_item.id_barang
+        WHERE cart_item.id_customer ='$email'")->result();
+        $total =0;
+        foreach($listBarang as $row){
+            $total = $total + ($row->harga * $row->kuantitas);
+        }
+
+        return $total;
         
     }
     public function addQty($id){
@@ -87,9 +105,22 @@ class Cart extends CI_Controller
         foreach($qty as $row){
             $total = $total + ( ($row->kuantitas)* ($row->harga)  );
         }
+        
         echo number_format ($total);
 
     }
+
+    public function setOngkir(){
+
+        $city = $_POST['city'];
+        $ship = $_POST['shipping'];
+        $total = $city*$ship;
+        
+        echo number_format ($total);
+
+    }
+
+    
 
 
 }

@@ -66,13 +66,6 @@
     }
     
 
-    public function Checkout()
-    {   
-        $this->load->view("templates/header");
-        $this->load->view("main/checkout");
-        $this->load->view("templates/footer");
-    }
-
     public function Resep()
     {   
         $this->load->view("templates/header");

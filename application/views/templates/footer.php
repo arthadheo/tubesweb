@@ -86,12 +86,65 @@
     </script>
     <!-- SAMPAI SINI -->
     <script>
+
+        var ongkir;
+        var total;
+
         function addtocart(id){
             var x= new XMLHttpRequest();
             x.open("GET", "<?php echo base_url()?>/mainpage/addCart/" +id,true);
             x.send();
 
         }
+
+        function createInvoice(){
+
+            $("input[name='shipping']").change(function(){
+
+                var e = document.getElementById("city");
+                var value = e.options[e.selectedIndex].value;
+                ongkir = value * this.value;
+                total = ongkir + <?php echo $total?>;
+                
+            });
+
+            var x= new XMLHttpRequest();
+            x.onreadystatechange = function(){
+                
+                if (this.readyState == 4 && this.status == 200) {
+
+                    document.getElementById("invoice").innerHTML = this.responseText;
+            
+                }
+                
+            }
+            x.open("GET", "<?php echo base_url()?>/checkout/createInvoice/"+ongkir+"/"+total,true);
+            x.send();
+           
+        }
+
+        $("input[name='shipping']").change(function(){
+
+            var e = document.getElementById("city");
+            var value = e.options[e.selectedIndex].value;
+            ongkir = value * this.value;
+            total = ongkir + <?php echo $total?>;
+
+            document.getElementById('ongkir').innerHTML = "Rp " + numberWithCommas(ongkir);
+            document.getElementById('total').innerHTML = "Rp " + numberWithCommas(total);
+
+        });
+
+        function numberWithCommas(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        var kosong = document.getElementById("kosong");
+
+            kosong.addEventListener('click', function(){
+                alert('Tidak ada barang di keranjang');
+            });
+        
     </script>
     <script>
         function showResult(str){
