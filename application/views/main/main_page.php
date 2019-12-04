@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6" style="width: 100%;height: 200px;"><img style="width: 100%;height: 200px;" src="<?php echo base_url('assets/img/resep1.jpg')?>"></div>
-                <div class="col-md-6"><img style="width: 100%;height: 200px;" src="<?php echo base_url('assets/img/image.png')?>"></div>
+                <div class="col-md-6"><img style="width: 100%;height: 200px;" src="<?php echo base_url('assets/img/banner2.jpg')?>"></div>
             </div>
         </div>
     </div>  
