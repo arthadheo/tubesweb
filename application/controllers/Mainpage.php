@@ -35,7 +35,7 @@
             if($_SESSION['email'] != ''){
                 $cart=$this->Cart_model;
                 $cart->addCartItem($id,$_SESSION['email']);
-                redirect();
+                
             }else{
                 redirect('Authorization/SignIn');
             }
