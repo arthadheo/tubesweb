@@ -57,6 +57,7 @@ $route['resep'] = 'mainpage/resep';
 $route['tutorial'] = 'mainpage/menulis_tutorial';
 $route['checkout'] = 'mainpage/checkout';
 $route['tentangkami'] = 'mainpage/tentangkami';
+$route['listresep'] = 'mainpage/listresep';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 

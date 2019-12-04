@@ -27,7 +27,7 @@ class Cart_model extends CI_Model{
     public function getAllCart($email){
 
         $listBarang = $this->db->query("SELECT barang.nama_barang,barang.img_barang,
-        barang.harga,cart_item.kuantitas
+        barang.harga,cart_item.kuantitas,barang.id_barang
         FROM barang 
         INNER JOIN cart_item 
         ON barang.id_barang =cart_item.id_barang

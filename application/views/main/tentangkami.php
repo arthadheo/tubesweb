@@ -14,39 +14,35 @@
             <div>
                 <h3 style="text-align: center; font-weight: bold; padding-bottom: 10px">Profile Developer</h3>
                 <div class="row">
-                    <div class="col">
-                        <div class="row">
-                            <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
-                        </div>
-                        <h6 class="text-center name" style="font-weight: bold">Fathan S. Anandika</h6>
-                        <p class="text-center title">Backend Developer</p>
-                        <p class="description" style="font-size: 12px">Bertugas sebagai backend developer. fathan membuat database, sampai semua yang berhubungan dengan backend </p>
-                    </div>
-                    <div class="col">
-                        <div class="row">
-                            <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
-                        </div>
-                        <h6 class="text-center name" style="font-weight: bold">Ariq Rafly</h6>
-                        <p class="text-center title">Backend Developer</p>
-                        <p class="description" style="font-size: 12px">Bertugas sebagai backend developer. Pekerjaan Ariq sama seperti fathan, membuat database, sampai semua yang berhubungan dengan backend</p>
-                    </div>
-                    <div class="col">
-                        <div class="row">
-                            <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
-                        </div>
-                        <h6 class="text-center name" style="font-weight: bold">Muh. M. Maulana</h6>
-                        <p class="text-center title">Frontend Developer</p>
-                        <p class="description" style="font-size: 12px">Bertugas sebagai frontend developer. Lana membuat berbagai macam layout page serta mengintegrasikan ke database yang ada</p>
-                    </div>
-                    <div class="col">
-                        <div class="row">
-                            <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
-                        </div>
-                        <h6 class="text-center name" style="font-weight: bold">Dheo Artha</h6>
-                        <p class="text-center title">Frontend Developer</p>
-                        <p class="description" style="font-size: 12px">Bertugas sebagai frontend developer. Dheo membuat berbagai macam layout page serta mengintegrasikan ke database yang ada</p>
-                    </div>
+                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/fathan.jpg" style="width: 120px;height: 120px;"></div>
                 </div>
+                <h6 class="text-center name"><b>Fathan Satria</b></h6>
+                <p class="text-center title">Front End Developer</p>
+                <p class="description">responsible for server-side web application logic and integration of the work front-end developers do. Back-end developers are usually write the web services and APIs. </p>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
+                </div>
+                <h6 class="text-center name"><b>Dheo Arta</b></h6>
+                <p class="text-center title">Front End Developer</p>
+                <p class="description">Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application. </p>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/profil_pic.jpg" style="width: 120px;height: 120px;"></div>
+                </div>
+                <h6 class="text-center name"><b>Muhsan Maulana</b></h6>
+                <p class="text-center title">Front End Developer</p>
+                <p class="description">Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application</p>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/ariq.jpg" style="width: 120px;height: 120px;"></div>
+                </div>
+                <h6 class="text-center name"><b>Ariq Rafly</b></h6>
+                <p class="text-center title">Back End Developer</p>
+                <p class="description">responsible for server-side web application logic and integration of the work front-end developers do. Back-end developers are usually write the web services and APIs. </p>
             </div>
         </div>
                             

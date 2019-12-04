@@ -35,7 +35,7 @@
             if($_SESSION['email'] != ''){
                 $cart=$this->Cart_model;
                 $cart->addCartItem($id,$_SESSION['email']);
-                redirect();
+                
             }else{
                 redirect('Authorization/SignIn');
             }
@@ -48,6 +48,14 @@
 
         
 
+    }
+    public function detail($id){
+        
+        $data['id'] = $id;
+
+        $this->load->view("templates/header");
+        $this->load->view("main/detailbrang",$data);
+        $this->load->view("templates/footer");
     }
 
     public function TentangKami(){
@@ -76,6 +84,13 @@
     {   
         $this->load->view("templates/header");
         $this->load->view("main/menulis_tutorial");
+        $this->load->view("templates/footer");
+    }
+
+    public function Listresep()
+    {   
+        $this->load->view("templates/header");
+        $this->load->view("main/listresep");
         $this->load->view("templates/footer");
     }
 
