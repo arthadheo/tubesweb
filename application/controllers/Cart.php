@@ -30,5 +30,27 @@ class Cart extends CI_Controller
         }
 
     }
+    public function deleteCart($id){
+        
+        $this->db->query("DELETE FROM `cart_item` WHERE id_barang= '$id' ");
+        
+    }
+
+    public function setTotal(){
+
+        $email = $_SESSION['email'];
+        $listBarang = $this->db->query("SELECT 
+        barang.harga,cart_item.kuantitas
+        FROM barang 
+        INNER JOIN cart_item 
+        ON barang.id_barang =cart_item.id_barang
+        WHERE cart_item.id_customer ='$email'")->result();
+        $total =0;
+        foreach($listBarang as $row){
+            $total = $total + ($row->harga * $row->kuantitas);
+        }
+        echo $total;
+        
+    }
 
 }
