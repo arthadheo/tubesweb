@@ -51,4 +51,9 @@
             ';
         }
          ?>
+
+<div class="container d-xl-flex justify-content-xl-center" style="width: 100%;margin-top: 20px;">
+<button class="btn btn-primary border-white" type="button" style="font-size: 24;background-color: rgb(234,67,53);
+height: 50px;width: 200px;">Checkout</button>
+</div>
     
