@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DATA>
+
+	<ROW>
+		<nama_barang>Aberdeen Angus Beef Meatballs</nama_barang>
+		<id_barang>101</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>British Beef Diced </nama_barang>
+		<id_barang>102</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Moy Park Large Whole Chicken</nama_barang>
+		<id_barang>103</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang> British Chicken Breast Fillets </nama_barang>
+		<id_barang>104</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Eden Beef Steak Mince 15% Fat </nama_barang>
+		<id_barang>105</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Ocado Organic Oranges</nama_barang>
+		<id_barang>201</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Wholegood Organic Oranges</nama_barang>
+		<id_barang>202</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Wholegood Organic Unwaxed Limes</nama_barang>
+		<id_barang>203</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Natoora Organic Avocados </nama_barang>
+		<id_barang>204</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Organic British Apples</nama_barang>
+		<id_barang>205</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>O'live Organic Spring Onions</nama_barang>
+		<id_barang>301</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Wholegood Organic Ginger </nama_barang>
+		<id_barang>302</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Wholegood Organic Romano Peppers</nama_barang>
+		<id_barang>303</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Wholegood Organic Aubergine</nama_barang>
+		<id_barang>304</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Wholegood Organic Large Garlic</nama_barang>
+		<id_barang>305</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Waitrose 2 Boneless Sea bass Fillets</nama_barang>
+		<id_barang>401</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Salmon with Chilli, Lime and Ginger</nama_barang>
+		<id_barang>402</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Leap Wild Keta Salmon Fillets</nama_barang>
+		<id_barang>403</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Leap Diced Albacore Tuna Steak</nama_barang>
+		<id_barang>404</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Ocado Mint </nama_barang>
+		<id_barang>501</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Cooks' Ingredients Fresh Lemongrass</nama_barang>
+		<id_barang>502</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Cooks' Ingredients Large Basil</nama_barang>
+		<id_barang>503</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Nature's Flavour's Organic Mint</nama_barang>
+		<id_barang>504</id_barang>
+	</ROW>
+
+	<ROW>
+		<nama_barang>Natoora Fresh Italian Rosemary</nama_barang>
+		<id_barang>505</id_barang>
+	</ROW>
+</DATA>
