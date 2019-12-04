@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/untitled-2.css')?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/untitled.css')?>">
 
+
+    <link rel="shortcut icon" type="image/png" href="<?php echo base_url("assets/img/market/groceria-apel.png"); ?>">
+
     <style>
     .popup {
         position: relative;

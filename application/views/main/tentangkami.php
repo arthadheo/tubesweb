@@ -5,9 +5,9 @@
 			<div class="row">
 				<div class="col-lg-8">
                     <div>
-					    <h3 style="padding: center">TENTANG GROCERIA</h3>
+					    <h3 style="text-align: center; font-weight: bold">TENTANG GROCERIA</h3>
                     </div>
-					<span class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal">Groceria adalah</span>
+					<span class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal">Groceria adalah sebuah website e-commerce yang menyediakan berbagai macam bumbu dan bahan untuk memasak.</span>
                     <div class="row zm-pt-30">
                         <div class="col-lg-12">
                             
