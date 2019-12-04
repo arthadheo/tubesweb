@@ -1,6 +1,7 @@
 <div class="container text-center" style="width: 100%;height: 60px;">
         <h2>Selesaikan orderanmu&nbsp;</h2>
     </div>
+     <div class="container d-xl-flex justify-content-xl-center align-items-xl-center" style="width: 100%;"><img src="assets/img/undraw_profile_data_mk6k%20(1).png" style="width: 500px;height: 360px;"></div>
     <div style="width: 100%;">
         <div class="container" style="width: 100%;padding-right: 0px;padding-bottom: 30px;">
             <div class="row" style="background-color: #f9f9f9;width: 100%;padding-bottom: 30px;padding-top: 30px;">
