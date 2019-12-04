@@ -94,4 +94,67 @@
         $this->load->view("templates/footer");
     }
 
+    function send_wa() 
+    {
+        $name_input   = $this->input->post('nameContact');
+        $nomorpemesanan_input  = $this->input->post('NPContact');
+        $alasan_input    = $this->input->post('alasanContact');
+    
+         /*Redirect the user to some site*/ 
+         redirect('https://api.whatsapp.com/send?phone=6289654784312&text=Nama:%20'.$name_input.'%0ANomor%20Pemesanan:%20'.$institusi_input.'%0AAlasan:%20'.$email_input.'');
+    }
+
+    function send_email() {
+        $nama     = $this->input->post('nameContact');
+        $nomorpemesanan= $this->input->post('NPContact');
+        $emailC    = $this->input->post('emailContact');
+        $alasan      = $this->input->post('alasanContact');
+       
+        //Server settings
+          // Konfigurasi email
+        $config = [
+               'mailtype'  => 'html',
+               'charset'   => 'utf-8',
+               'protocol'  => 'smtp',
+               'smtp_host' => 'ssl://smtp.gmail.com',
+               'smtp_user' => 'hmikomputerup@gmail.com',    // Ganti dengan email gmail kamu
+               'smtp_pass' => 'ilmukomputer1617',      // Password gmail kamu
+               'smtp_port' => 465,
+               'crlf'      => "\r\n",
+               'newline'   => "\r\n"
+           ];
+    
+        // Load library email dan konfigurasinya
+        $this->load->library('email', $config);
+    
+        // Email dan nama pengirim
+        $this->email->from($emailC, $nomorpemesanan.' | '.$nama);
+    
+        // Email penerima
+        $this->email->to('madza204@gmail.com'); // Ganti dengan email tujuan kamu
+    
+        // Subject email
+        $this->email->subject('Website Groceria | '.$nomorpemesanan);
+    
+        // Isi email
+        $this->email->message($alasan);
+    
+        // Tampilkan pesan sukses atau error
+        if ($this->email->send()) {
+            $this->session->set_flashdata('alasan',
+            '<div class="alert alert-success alert-dismissible">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+              <strong>Terima Kasih. !</strong> Pesan Anda telah terkirim.
+            </div>');
+            redirect('Mainpage');
+        } else {
+            $this->session->set_flashdata('alasan',
+            '<div class="alert alert-danger alert-dismissible">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+              <strong>Oh no!</strong> Sepertinya ada kesalahan dalam mengirim pesan, silahkan coba lagi.
+            </div>');
+          redirect('Mainpage');
+        }
+      }
+
 }

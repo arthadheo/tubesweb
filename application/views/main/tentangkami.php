@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-lg-8">
                     <div>
-					    <h3 style="text-align: center; font-weight: bold">TENTANG GROCERIA</h3>
+					    <h3 style="text-align: center; font-weight: bold; padding-top: 40px">TENTANG GROCERIA</h3>
                     </div>
 					<span class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal"  style="padding-bottom: 10px;">Groceria adalah sebuah website e-commerce yang menyediakan berbagai macam bumbu dan bahan untuk memasak.</span>
                     <div class="row zm-pt-30">
@@ -12,7 +12,7 @@
 
         <div class="container" style="width: 100%;">
             <div>
-                <h3 style="text-align: center; font-weight: bold; padding-bottom: 10px">Profile Developer</h3>
+                <h3 style="text-align: center; font-weight: bold; padding-bottom: 10px; padding-top: 40px">Profile Developer</h3>
                 <div class="row">
                     <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/fathan.jpg" style="width: 120px;height: 120px;"></div>
                 </div>
@@ -22,7 +22,7 @@
             </div>
             <div class="col">
                 <div class="row">
-                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
+                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/dheo1.jpg" style="width: 120px;height: 120px;"></div>
                 </div>
                 <h6 class="text-center name"><b>Dheo Arta</b></h6>
                 <p class="text-center title">Front End Developer</p>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4" style="padding-top: 40px">
 					<h5 style="font-weight: bold">Alamat</h5>
                     <p>
                         <span class="zm-font-500 zm-font-light">Gedung Griya Legita, Lt.4</span><br> Jl. Teuku Nyak Arief, RT.7/RW.8, Simprug, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12220</p>
@@ -68,5 +68,7 @@
             </div>
 		</div>
 	</div>
+
+  
 <!-- /section one -->
 <!-- Javascript start -->
