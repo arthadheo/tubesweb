@@ -30,7 +30,8 @@ class Cart_model extends CI_Model{
         barang.harga,cart_item.kuantitas
         FROM barang 
         INNER JOIN cart_item 
-        ON barang.id_barang =barang.id_barang;")->result();
+        ON barang.id_barang =cart_item.id_barang
+        WHERE cart_item.id_customer ='$email';")->result();
 
         return $listBarang;
     }

@@ -33,8 +33,8 @@
         if(isset($_SESSION['email'])){
 
             if($_SESSION['email'] != ''){
-                $barang=$this->Barang_model;
-                $barang->addCartItem($id,$_SESSION['email']);
+                $cart=$this->Cart_model;
+                $cart->addCartItem($id,$_SESSION['email']);
                 redirect();
             }else{
                 redirect('Authorization/SignIn');

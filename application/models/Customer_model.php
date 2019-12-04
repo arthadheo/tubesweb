@@ -9,7 +9,6 @@ class Customer_model extends CI_Model{
     public $fullname;
     public $alamat;
     public $phone;
-    public $cart_id = null;
 
     public function signUp_rules()
     {
