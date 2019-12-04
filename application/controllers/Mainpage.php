@@ -79,4 +79,11 @@
         $this->load->view("templates/footer");
     }
 
+    public function Listresep()
+    {   
+        $this->load->view("templates/header");
+        $this->load->view("main/listresep");
+        $this->load->view("templates/footer");
+    }
+
 }

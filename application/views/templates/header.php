@@ -300,8 +300,8 @@
                                 href="<?php echo base_url('content/item/4')?>">Ikan</a><a class="dropdown-item" role="presentation"
                                 href="<?php echo base_url('content/item/5')?>">Bumbu</a><a class="dropdown-item" role="presentation"
                                 href="<?php echo base_url('content/item/2')?>">Buah</a><a class="dropdown-item" role="presentation" 
-                                href="<?php echo base_url('content/item/6')?>">Resep</a><a class="dropdown-item" role="presentation"    
-                                href="<?php echo base_url('content/item/3')?>">Sayur</a>
+                                href="<?php echo base_url('content/item/3')?>">Sayur</a><a class="dropdown-item" role="presentation"    
+                                href="<?php echo base_url('listresep')?>">Resep</a>
                             </div>
                         </li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="<?php echo base_url('tentangkami')?>">Tentang Kami</a></li>

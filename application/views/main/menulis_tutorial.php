@@ -1,8 +1,14 @@
-<div class="container" style="height: 80px;"></div>
+</div>
+    <div class="container" style="height: 80px;"></div>
     <div class="container" style="width: 100%;">
         <h2 class="text-center">LENGKAPI RESEPMU</h2>
     </div>
     <div class="container" style="width: 100%;margin-top: 20px;">
+        <h5 class="text-left">Judul&nbsp;</h5><input class="border rounded" type="text" style="height: 45px;width: 600px;margin-bottom: 20px;">
+        <div class="col" style="width: 100%;padding-left: 0;"><button class="btn btn-primary border-white" type="button" style="background-color: rgb(234,67,53);">Choose file</button><input class="border rounded" type="text" style="width: 200px;margin-left: 10px;margin-right: 10px;height: 40px;">
+            <button
+                class="btn btn-primary border-white" type="button" style="background-color: rgb(234,67,53);">Upload</button>
+        </div>
         <h5 class="text-left">Bagaimana cara membuatnya ? beritahu kami langkahnya</h5><textarea style="height: 300px;width: 100%;"></textarea></div>
     <div class="container" style="width: 100%;margin-top: 20px;">
         <h3 class="text-left">Daftar Bahan</h3>
