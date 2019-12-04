@@ -42,14 +42,14 @@
                             </div>
                 </div>
                 <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center">
-                    <button class="btn btn-primary text-center border rounded-circle border-white d-xl-flex justify-content-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 0px;margin-right: 20px;width: 36px;height: 36px;">+</button>
+                    <button class="btn btn-primary text-center border rounded-circle border-white d-xl-flex justify-content-xl-center" onclick ="addQty('.$row->id_barang.');totalItem('.$row->id_barang.');setTotal();"type="button" style="background-color: rgb(234,67,53);margin-left: 0px;margin-right: 20px;width: 36px;height: 36px;">+</button>
                     <h5
-                        class="text-break">'.$row->kuantitas.'</h5><button class="btn btn-primary text-center border rounded-circle border-white d-xl-flex justify-content-xl-center align-items-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 20px;margin-right: 0px;width: 36px;height: 36px;">-</button></div>
+                        class="text-break"> <span id="'.$row->id_barang.'-kuantitas" >'.$row->kuantitas.'</span> </h5><button class="btn btn-primary text-center border rounded-circle border-white d-xl-flex justify-content-xl-center align-items-xl-center"onclick ="minQty('.$row->id_barang.');totalItem('.$row->id_barang.');setTotal();" type="button" style="background-color: rgb(234,67,53);margin-left: 20px;margin-right: 0px;width: 36px;height: 36px;">-</button></div>
             <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center">
                 <h5 class="text-break">Rp '. number_format($row->harga).'</h5>
             </div>
             <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center">
-                <h5class="text-break text-left d-xl-flex align-items-xl-center" style="margin-right: 35px;">Rp. '. number_format($row->harga*$row->kuantitas).'</h5>
+                <h5class="text-break text-left d-xl-flex align-items-xl-center" style="margin-right: 35px;">Rp. <span id="'.$row->id_barang.'-total">'. number_format($row->harga*$row->kuantitas).'</span> </h5>
                 
                 <button class="btn btn-primary border rounded-circle border-white d-xl-flex justify-content-xl-center align-items-xl-center"  onclick="deleteCart('.$row->id_barang.');setTotal();" type="button" style="background-color: rgb(234,67,53);width: 30px;height: 30px;"><i class="fa fa-trash" style="width: 12px;height: 12px;"></i></button>
                 
@@ -58,7 +58,7 @@
     </div>
         
             ';
-        $total = $total+$row->harga;
+        $total = $total+($row->harga*$row->kuantitas);
         }
          ?>
 
