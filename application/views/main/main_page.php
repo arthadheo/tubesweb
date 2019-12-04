@@ -28,11 +28,11 @@
                     echo '
                     <div class="col-md-3" style="width: 100%;height: 330px; margin-bottom : 10px;">
                         <div class="card" style="width: 100%;height: 100%;margin-right: 0px;">
-                        <img class="card-img-top w-100 d-block" style="width: 100%;height: 220px;" src="'.base_url().'assets/img/market/' . $row->img_barang.'">
-                            <h4 style="font-size: 14px;margin-left: 5px;">'. $row->nama_barang . '</h4>
+                        <a href='.base_url("mainpage/detail/$row->id_barang").'>
+                        <img class="card-img-top w-100 d-block" style="width: 100%;height: 220px;" src="'.base_url().'assets/img/market/' . $row->img_barang.'" >
+                        </a>                            <h4 style="font-size: 14px;margin-left: 5px;">'. $row->nama_barang . '</h4>
                             <p style="margin-left: 5px;margin-bottom: 5px;color: rgb(0,0,0);">Rp. '. number_format($row->harga) . '</p>
                            
-
                             <div id="Success-Button" style="width: 200px;"><button class="btn btn-success" data-toggle="modal" data-target="#succesalert" type="button" onclick ="addtocart('.$row->id_barang.')" style="width: 200px;height: 35px;background-color: rgb(234,67,53);font-size: 14px;">add to cart&nbsp;<i class="fa fa-cart-plus" style="font-size: 16px;"></i></button>
         <div class="modal fade"
             role="dialog" tabindex="-1" id="succesalert">
