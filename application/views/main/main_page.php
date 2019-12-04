@@ -3,7 +3,7 @@
     <div class="text-center">
         <div class="container">
             <div class="row">
-                <div class="col"><img src="<?php echo base_url('assets/img/image.png')?>" style="width: 100%;height: 100%;"></div>
+                <div class="col"><img src="<?php echo base_url('assets/img/banner.jpg')?>" style="width: 100%;height: 100%;"></div>
             </div>
         </div>
     </div>
