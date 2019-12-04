@@ -299,7 +299,8 @@
                                 href="<?php echo base_url('content/item/1')?>">Daging</a><a class="dropdown-item" role="presentation" 
                                 href="<?php echo base_url('content/item/4')?>">Ikan</a><a class="dropdown-item" role="presentation"
                                 href="<?php echo base_url('content/item/5')?>">Bumbu</a><a class="dropdown-item" role="presentation"
-                                href="<?php echo base_url('content/item/2')?>">Buah</a><a class="dropdown-item" role="presentation"   
+                                href="<?php echo base_url('content/item/2')?>">Buah</a><a class="dropdown-item" role="presentation" 
+                                href="<?php echo base_url('content/item/6')?>">Resep</a><a class="dropdown-item" role="presentation"    
                                 href="<?php echo base_url('content/item/3')?>">Sayur</a>
                             </div>
                         </li>
