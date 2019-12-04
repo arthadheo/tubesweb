@@ -35,7 +35,7 @@
 
                             <div class="row d-xl-flex justify-content-xl-center" style="margin-left: 0px;margin-right: 0px;width: 100%;">
                             <div class="col d-xl-flex justify-content-xl-center" style="width: 100%;">
-                            <div id="Success-Button" style="width: 200px;"><button class="btn btn-success" data-toggle="modal" data-target="#succesalert" type="button" onclick ="addtocart('.$row->id_barang.')" style="width: 200px;height: 35px;background-color: rgb(234,67,53);font-size: 14px;">add to cart&nbsp;<i class="fa fa-cart-plus" style="font-size: 16px;"></i></button>
+                            <div id="Success-Button" style="width: 200px;"><button class="btn btn-success" data-toggle="modal" onclick ="addtocart('.$row->id_barang.')" data-target="#succesalert" type="button"  style="width: 200px;height: 35px;background-color: rgb(234,67,53);font-size: 14px;">add to cart&nbsp;<i class="fa fa-cart-plus" style="font-size: 16px;"></i></button>
                             <div class="modal fade"
                                 role="dialog" tabindex="-1" id="succesalert">
                                 <div class="modal-dialog" role="document">

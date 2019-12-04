@@ -49,6 +49,7 @@
         
 
     }
+    
     public function detail($id){
         
         $data['id'] = $id;

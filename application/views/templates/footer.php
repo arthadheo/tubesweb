@@ -27,7 +27,7 @@
         }
         x.open("GET", "<?php echo base_url()?>/cart/deleteCart/"+id,true);
         x.send();
-    }
+        }
         function setTotal(){
             var x= new XMLHttpRequest();
             x.onreadystatechange = function(){
@@ -87,15 +87,21 @@
     <!-- SAMPAI SINI -->
     <script>
 
-        var ongkir;
-        var total;
-
         function addtocart(id){
+            console.log(id);
             var x= new XMLHttpRequest();
             x.open("GET", "<?php echo base_url()?>/mainpage/addCart/" +id,true);
             x.send();
 
         }
+        function cartKosong(){
+            alert("Tidak ada barang di keranjang");
+        }
+
+    </script>
+    <script>
+        var ongkir;
+        var total;
 
         function createInvoice(){
 
@@ -146,6 +152,7 @@
             });
         
     </script>
+
     <script>
         function showResult(str){
             if (str.length==0) {
