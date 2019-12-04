@@ -13,6 +13,8 @@
     </div>
     <script src="<?php echo base_url('assets/js/jquery.min.js')?>"></script>
     <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js')?>"></script>
+
+    <!-- UNTUK CART -->
     <script>
         function deleteCart(id){
         
@@ -82,6 +84,17 @@
 
         }
     </script>
+    <!-- SAMPAI SINI -->
+    <script>
+        function addtocart(id){
+            var x= new XMLHttpRequest();
+            x.open("GET", "<?php echo base_url()?>/mainpage/addCart/" +id,true);
+            x.send();
+
+        }
+    </script>
+
+
 </body>
 
 </html>
