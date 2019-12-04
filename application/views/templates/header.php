@@ -303,7 +303,12 @@
                         <li class="nav-item" role="presentation"><a class="nav-link" href="<?php echo base_url('tentangkami')?>">Tentang Kami</a></li>
                     </ul><input type="search" style="background-color: #fbfbfb ; border-color: #f6f5f5;opacity: 2;border-radius: 20px;width: 265px;font-size: 14px;padding: 4px; "><span class="navbar-text actions" style="width: 10px;"> </span><i class="fa fa-search" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
                     <span class="navbar-text actions" style="width: 10px;"> </span>
-                        <i class="fa fa-shopping-cart" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
+                    <form action = "<?php echo base_url('cart')?>">
+                    <button class = "btn btn-primary border-white" type = "submit" style = "height: 38px;background-color: #FFFFFF;color: rgb(0,0,0);margin-left: 10px;">
+                            <i class="fa fa-shopping-cart" style="width: 24px;height: 24px;background-position: center;background-size: cover;font-size: 24px;"></i>
+                        </button>
+                    </form>
+                        
                     <span class="navbar-text actions" style="width: 10px;"> </span>
                     <?php 
                     

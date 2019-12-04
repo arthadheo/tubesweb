@@ -6,6 +6,7 @@
 
     public function __construct () {
         parent ::__construct();
+        $this->load->model("Barang_model");
 
     }
 
@@ -26,17 +27,25 @@
 
     }
 
-    public function MyCart()
-    {   
-        $this->load->view("templates/header");
-        $this->load->view("main/mycart");
-        $this->load->view("templates/footer");
-    }
 
-    public function add_to_cart($id){
+    public function addCart($id){
+
+        if(isset($_SESSION['email'])){
+
+            if($_SESSION['email'] != ''){
+                $barang=$this->Barang_model;
+                $barang->addCartItem($id,$_SESSION['email']);
+                redirect();
+            }else{
+                redirect('Authorization/SignIn');
+            }
+            
+        }
+        else{
+            redirect('Authorization/SignIn');
+        }
         
-        echo('<script>alert("'.$id.'")</script>');
-        $this->db->query("INSERT INTO `cart_item` (id_cart_item, id_barang,kuantitas,id_costumer) VALUES (1,'$id',1,101)");
+
         
 
     }
