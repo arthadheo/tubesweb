@@ -10,6 +10,44 @@
 					<span class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal">Groceria adalah sebuah website e-commerce yang menyediakan berbagai macam bumbu dan bahan untuk memasak.</span>
                     <div class="row zm-pt-30">
                         <div class="col-lg-12">
+
+                        <div class="container" style="width: 100%;">
+        <div></div>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
+                </div>
+                <h6 class="text-center name">Fathan Satria Anandika</h6>
+                <p class="text-center title">Musician</p>
+                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
+                </div>
+                <h6 class="text-center name">Dheo Arta</h6>
+                <p class="text-center title">Musician</p>
+                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
+                </div>
+                <h6 class="text-center name">Muh. Muhsan Maulana</h6>
+                <p class="text-center title">Musician</p>
+                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/1.jpg" style="width: 120px;height: 120px;"></div>
+                </div>
+                <h6 class="text-center name">Muh. Ariq Rafly</h6>
+                <p class="text-center title">Musician</p>
+                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+            </div>
+        </div>
+    </div>
                             
                         </div>
                     </div>
