@@ -1,6 +1,4 @@
-
-    
-    <div class="container" style="height: 40px;"></div>
+<div class="container" style="height: 40px;"></div>
     <div style="width: 100%;background-color: #f2d2d2;">
         <div class="container">
             <div class="row">
@@ -21,8 +19,18 @@
     </div>
     <div style="width: 100%;">
         <div class="container">
-            <div class="row" style="height: 120px;">
-                <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center"><img class="d-xl-flex" src="assets/img/persegi.png" style="width: 100px;height: 100px;"></div>
+            <div class="row" style="height: 120px;margin-bottom: 15px;">
+                <div class="col-md-3 text-center d-xl-flex justify-content-xl-center align-items-xl-center">
+                    <div class="row">
+                        <div class="col"><img class="d-inline d-xl-flex" src="assets/img/persegi.png" style="width: 100px;height: 100px;">
+                            <div class="row" style="height: 16px;">
+                                <div class="col">
+                                    <p>Daging Sapi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center"><button class="btn btn-primary text-left border rounded-circle border-white d-xl-flex justify-content-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 0px;margin-right: 20px;width: 36px;height: 36px;">+</button>
                     <h5
                         class="text-break">3</h5><button class="btn btn-primary text-center border rounded-circle border-white d-xl-flex justify-content-xl-center align-items-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 20px;margin-right: 0px;width: 36px;height: 36px;">-</button></div>
@@ -38,8 +46,18 @@
     </div>
     <div style="width: 100%;">
         <div class="container">
-            <div class="row" style="height: 120px;">
-                <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center"><img class="d-xl-flex" src="assets/img/persegi.png" style="width: 100px;height: 100px;"></div>
+            <div class="row" style="height: 120px;margin-bottom: 15px;">
+                <div class="col-md-3 text-center d-xl-flex justify-content-xl-center align-items-xl-center">
+                    <div class="row">
+                        <div class="col"><img class="d-inline d-xl-flex" src="assets/img/persegi.png" style="width: 100px;height: 100px;">
+                            <div class="row" style="height: 16px;">
+                                <div class="col">
+                                    <p>Daging Sapi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center"><button class="btn btn-primary text-left border rounded-circle border-white d-xl-flex justify-content-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 0px;margin-right: 20px;width: 36px;height: 36px;">+</button>
                     <h5
                         class="text-break">3</h5><button class="btn btn-primary text-center border rounded-circle border-white d-xl-flex justify-content-xl-center align-items-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 20px;margin-right: 0px;width: 36px;height: 36px;">-</button></div>
@@ -55,8 +73,45 @@
     </div>
     <div style="width: 100%;">
         <div class="container">
-            <div class="row" style="height: 120px;">
-                <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center"><img class="d-xl-flex" src="assets/img/persegi.png" style="width: 100px;height: 100px;"></div>
+            <div class="row" style="height: 120px;margin-bottom: 15px;">
+                <div class="col-md-3 text-center d-xl-flex justify-content-xl-center align-items-xl-center">
+                    <div class="row">
+                        <div class="col"><img class="d-inline d-xl-flex" src="assets/img/persegi.png" style="width: 100px;height: 100px;">
+                            <div class="row" style="height: 16px;">
+                                <div class="col">
+                                    <p>Daging Sapi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center"><button class="btn btn-primary text-left border rounded-circle border-white d-xl-flex justify-content-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 0px;margin-right: 20px;width: 36px;height: 36px;">+</button>
+                    <h5
+                        class="text-break">3</h5><button class="btn btn-primary text-center border rounded-circle border-white d-xl-flex justify-content-xl-center align-items-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 20px;margin-right: 0px;width: 36px;height: 36px;">-</button></div>
+                <div
+                    class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center">
+                    <h5 class="text-break">Rp. 20.000</h5>
+            </div>
+            <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center">
+                <h5 class="text-break">Rp. 60.000</h5>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div style="width: 100%;">
+        <div class="container">
+            <div class="row" style="height: 120px;margin-bottom: 15px;">
+                <div class="col-md-3 text-center d-xl-flex justify-content-xl-center align-items-xl-center">
+                    <div class="row">
+                        <div class="col"><img class="d-inline d-xl-flex" src="assets/img/persegi.png" style="width: 100px;height: 100px;">
+                            <div class="row" style="height: 16px;">
+                                <div class="col">
+                                    <p>Daging Sapi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center"><button class="btn btn-primary text-left border rounded-circle border-white d-xl-flex justify-content-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 0px;margin-right: 20px;width: 36px;height: 36px;">+</button>
                     <h5
                         class="text-break">3</h5><button class="btn btn-primary text-center border rounded-circle border-white d-xl-flex justify-content-xl-center align-items-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 20px;margin-right: 0px;width: 36px;height: 36px;">-</button></div>

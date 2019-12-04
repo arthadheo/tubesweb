@@ -44,17 +44,17 @@
         $this->load->view("templates/footer");
     }
 
-    public function InputResep()
+    public function Resep()
     {   
         $this->load->view("templates/header");
         $this->load->view("main/resep");
         $this->load->view("templates/footer");
     }
 
-    public function InputTutorial()
+    public function Tutorial()
     {   
         $this->load->view("templates/header");
-        $this->load->view("main/menulis_resep");
+        $this->load->view("main/menulis_tutorial");
         $this->load->view("templates/footer");
     }
 
