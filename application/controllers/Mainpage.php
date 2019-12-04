@@ -6,7 +6,7 @@
 
     public function __construct () {
         parent ::__construct();
-        $this->load->model("Barang_model");
+        $this->load->model("Cart_model");
 
     }
 
