@@ -17,7 +17,7 @@
                     <div class="col d-xl-flex justify-content-xl-center"><img class="rounded-circle" src="assets/img/fathan.jpg" style="width: 120px;height: 120px;"></div>
                 </div>
                 <h6 class="text-center name"><b>Fathan Satria</b></h6>
-                <p class="text-center title">Front End Developer</p>
+                <p class="text-center title">Back End Developer</p>
                 <p class="description">responsible for server-side web application logic and integration of the work front-end developers do. Back-end developers are usually write the web services and APIs. </p>
             </div>
             <div class="col">
