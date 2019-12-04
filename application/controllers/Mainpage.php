@@ -3,8 +3,10 @@
 
     class Mainpage extends CI_Controller {
 
+
     public function __construct () {
         parent ::__construct();
+
     }
 
     public function index () {
@@ -16,6 +18,7 @@
     }
 
     public function belanja () {
+
         //load view footer
         $this->load->view("templates/header");
         $this->load->view("main/belanja");
@@ -30,11 +33,20 @@
         $this->load->view("templates/footer");
     }
 
+    public function add_to_cart($id){
+        
+        echo('<script>alert("'.$id.'")</script>');
+        $this->db->query("INSERT INTO `cart_item` (id_cart_item, id_barang,kuantitas,id_costumer) VALUES (1,'$id',1,101)");
+        
+
+    }
+
     public function TentangKami(){
 
         $this->load->view("templates/header");
         $this->load->view("main/tentangkami");
         $this->load->view("templates/footer");
     }
+    
 
 }
