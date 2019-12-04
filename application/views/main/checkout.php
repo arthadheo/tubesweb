@@ -1,7 +1,7 @@
 <div class="container text-center" style="width: 100%;height: 60px;">
-        <h2>Selesaikan orderanmu&nbsp;</h2>
+        <h2>Selesaikan orderanmu&nbsp;</h2>        
     </div>
-     <div class="container d-xl-flex justify-content-xl-center align-items-xl-center" style="width: 100%;"><img src="assets/img/undraw_profile_data_mk6k%20(1).png" style="width: 500px;height: 360px;"></div>
+     <div class="container d-xl-flex justify-content-xl-center align-items-xl-center" style="width: 100%;"><img src="<?php echo base_url('assets/img/undraw_profile_data_mk6k%20(1).png')?>" style="width: 500px;height: 360px;"></div>
     <div style="width: 100%;">
         <div class="container" style="width: 100%;padding-right: 0px;padding-bottom: 30px;">
             <div class="row" style="background-color: #f9f9f9;width: 100%;padding-bottom: 30px;padding-top: 30px;">
@@ -11,11 +11,12 @@
                         <div class="dropdown-menu dropdown-menu-left"
                             role="menu" style="width: 200px;"><a class="dropdown-item" role="presentation" href="#">Jakarta Selatan</a><a class="dropdown-item" role="presentation" href="#">Jakarta Utara</a><a class="dropdown-item" role="presentation" href="#">Jakarta Timur</a></div>
                     </div>
-                    <h6 style="margin-top: 20px;">Alamt Lengkap</h6><input class="border rounded" type="text" style="width: 400px;height: 38px;">
+                    <h6 style="margin-top: 20px;">Alamat Lengkap</h6><input class="border rounded" type="text" style="width: 400px;height: 38px;">
                     <h6 style="margin-top: 20px;">Pilih Kurir Pengiriman</h6>
-                    <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">UMX Shipping</label></div>
-                    <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">UMX Shipping</label></div>
-                    <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">UMX Shipping</label></div>
+                    <div class="form-check">
+                    <input name = "shipping" class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">UMX Shipping Regular</label></div>
+                    <div class="form-check"><input name = "shipping" class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">UMX Shipping Kilat</label></div>
+                    <div class="form-check"><input name = "shipping" class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">UMX Shipping Premier</label></div>
                 </div>
                 <div class="col">
                     <h5 style="margin-bottom: 0px;">Summary Order</h5>
