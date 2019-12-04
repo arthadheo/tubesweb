@@ -52,8 +52,17 @@
         }
          ?>
 
-<div class="container d-xl-flex justify-content-xl-center" style="width: 100%;margin-top: 20px;">
-<button class="btn btn-primary border-white" type="button" style="font-size: 24;background-color: rgb(234,67,53);
-height: 50px;width: 200px;">Checkout</button>
-</div>
-    
+<div style="width: 100&amp;;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-xl-flex justify-content-xl-end align-items-xl-center" style="width: 80%;">
+                    <h4 class="text-left d-xl-flex justify-content-xl-end">Total Harga Barang :</h4>
+                </div>
+                <div class="col-md-6 d-xl-flex justify-content-xl-start">
+                    <h4 class="text-left d-xl-flex justify-content-xl-end" style="color: rgb(234,67,53);">Rp 120.000</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-xl-flex justify-content-xl-center" style="width: 100%;margin-top: 20px;">
+    <button class="btn btn-primary border-white" type="button" style="font-size: 24;background-color: rgb(234,67,53);height: 50px;width: 200px;">Checkout</button></div>
