@@ -26,9 +26,8 @@
                 <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center"><button class="btn btn-primary text-left border rounded-circle border-white d-xl-flex justify-content-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 0px;margin-right: 20px;width: 36px;height: 36px;">+</button>
                     <h5
                         class="text-break">3</h5><button class="btn btn-primary text-center border rounded-circle border-white d-xl-flex justify-content-xl-center align-items-xl-center" type="button" style="background-color: rgb(234,67,53);margin-left: 20px;margin-right: 0px;width: 36px;height: 36px;">-</button></div>
-                <div
-                    class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center">
-                    <h5 class="text-break">Rp. 20.000</h5>
+            <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center">
+                <h5 class="text-break">Rp. 20.000</h5>
             </div>
             <div class="col-md-3 d-xl-flex justify-content-xl-center align-items-xl-center">
                 <h5 class="text-break">Rp. 60.000</h5>

@@ -7,36 +7,30 @@ class Cart extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model("Customer_model");
-        $this->load->library('form_validation');
+        $this->load->model("Barang_model");
     }
 
     public function index()
     {   
-        $this->load->view("templates/header");
-        $this->load->view("main/mycart");
-        $this->load->view("templates/footer");
-    }
+        if(isset($_SESSION['email'])){
 
-    public function SignUp()
-    {
-        $customer = $this->Customer_model;
-        $validation = $this->form_validation;
-        $validation->set_rules($customer->signUp_rules());
-
-        if ($validation->run() == false) {
-            $this->load->view("templates/header");
-            $this->load->view("main/authorization");
-            $this->load->view("main/form_signup");
-            $this->load->view("templates/footer");
+            if($_SESSION['email'] != ''){
+                $barang=$this->Barang_model;
+                $data['list_cart'] = $barang->getAllCart($_SESSION['email']);
+                $this->load->view("templates/header");
+                $this->load->view("main/mycart", $data);
+                $this->load->view("templates/footer");
+            }else{
+                redirect('Authorization/SignIn');
+            }
+            
         }
         else{
-            $customer->daftar();
-            $this->session->set_flashdata('success', 'Berhasil disimpan');
-            redirect('Authorization');
-
+            redirect('Authorization/SignIn');
         }
+
     }
+
 
     public function SignIn()
     {

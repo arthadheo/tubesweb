@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Authorization extends CI_Controller
 {
+    var $status = true;
     public function __construct()
     {
         parent::__construct();
@@ -13,10 +14,21 @@ class Authorization extends CI_Controller
 
     public function index()
     {
-        $this->load->view("templates/header");
-        $this->load->view("main/authorization");
-        $this->load->view("main/form_signin");
-        $this->load->view("templates/footer");
+        if(!$this->status){
+            $this->load->view("templates/header");
+            $this->load->view("main/authorization");
+            $this->load->view("main/form_signin");
+            $this->load->view("templates/footer");
+            echo('<script>alert("Password and Username Salah")</script>');
+
+        }
+        else{
+            $this->load->view("templates/header");
+            $this->load->view("main/authorization");
+            $this->load->view("main/form_signin");
+            $this->load->view("templates/footer");
+        }
+        
     }
 
     public function SignUp()
@@ -53,9 +65,19 @@ class Authorization extends CI_Controller
         }
         else{
 
-            $data = $customer->login();
-            $this->session->set_flashdata('success', 'Berhasil disimpan');
-            redirect();
+            $this->status = $customer->login();
+
+            if($this->status){
+                $this->session->set_flashdata('success', 'Berhasil disimpan');
+                redirect();
+            }
+            else{
+
+                $this->session->set_flashdata('error', 'Password Username Salah');
+                redirect('Authorization');
+
+            }
+            
 
         }
     }

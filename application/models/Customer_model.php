@@ -87,12 +87,15 @@ class Customer_model extends CI_Model{
         $post = $this->input->post();
         $this->email = $post["email"];
         $this->password = $post["password"];
+        $status = true;
         
         $customers = $this->getAccount($this->email, $this->password);
 
         if(empty($customers)){
             
-            echo('<script>alert("Password and Username Salah")</script>');
+            //echo('<script>alert("Password and Username Salah")</script>');
+            $status = false;
+
         }
         else{
 
@@ -102,6 +105,8 @@ class Customer_model extends CI_Model{
             $_SESSION['phone'] = $customers['phone'];
 
         }
+
+        return $status;
         
     }
 
