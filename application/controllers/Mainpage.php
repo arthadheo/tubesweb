@@ -49,6 +49,14 @@
         
 
     }
+    public function detail($id){
+        
+        $data['id'] = $id;
+
+        $this->load->view("templates/header");
+        $this->load->view("main/detailbrang",$data);
+        $this->load->view("templates/footer");
+    }
 
     public function TentangKami(){
 
