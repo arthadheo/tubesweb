@@ -15,26 +15,26 @@
                   <div class="modal-content">
                       <div class="modal-footer">
                       	<div style="width: 100%">
-                  			<h5 style="text-align: center">
+                  			<h5 style="text-align: center; padding-bottom: 20px; font-weight: bold">
                               Saya ingin menanyakan lebih lanjut
                   			</h5>
 	                          <form action="<?php echo base_url(); ?>Mainpage/send_wa" method="POST" enctype='multipart/form-data'>
 							  	<div class="form-group">
-					                <label class=" zm-font-bolder zm-color-dark" for="name">Nama Lengkap</label>
+					                <label for="name">Nama Lengkap</label>
 					                <input type="text" autocomplete="off" class="form-control"
 					                id="name" name="nameContact" required>
 					            </div>
 					          	<div class="form-group">
-				                    <label class="zm-font-bolder zm-color-dark" for="NP">Nomor pemesanan</label>
+				                    <label for="NP">Nomor pemesanan</label>
 				                    <input type="text" autocomplete="off" class="form-control"
 				                    id="nomorpemesanan" name="NPContact" required>
 				              	 </div>
 				              	<div class="form-group"> 
-				                    <label class="zm-font-bolder zm-color-dark" for="institusi">Alasan</label>
+				                    <label  for="institusi">Alasan</label>
 				                    <input type="text" autocomplete="off" class="form-control" 
 				                    id="alasan" name="alasanContact" required>
 				              	 </div>
-				              	 <div class="form-group zm-pb-10 zm-pt-20"> 
+				              	 <div style="padding-left: 35%"> 
 				              	<button class="btn" style="background-color: grey; color: white;" type="submit">KONTAK KAMI</button>
 				              	</div>
 				              </form>
@@ -52,7 +52,7 @@
                   <div class="modal-content">
                       <div class="modal-footer">
                       	<div style="width: 100%">
-                  			<h5 style="text-align: center">
+                  			<h5 style="text-align: center; padding-bottom: 20px; font-weight: bold">
                               Saya ingin menanyakan lebih lanjut
                   			</h5>
                               <?php echo $this->session->flashdata('alasan'); ?>
@@ -74,11 +74,11 @@
                                     required>
                                 </div>
 				              	<div class="form-group"> 
-				                    <label class="zm-font-bolder zm-color-dark" for="institusi">Alasan</label>
+				                    <label for="institusi">Alasan</label>
 				                    <input type="text" autocomplete="off" class="form-control" 
 				                    id="alasan" name="alasanContact" required>
 				              	 </div>
-				              	 <div class="form-group zm-pb-10 zm-pt-20"> 
+				              	 <div style="padding-left: 35%"> 
 				              	<button class="btn" style="background-color: grey; color: white;" type="submit">KONTAK KAMI</button>
 				              	</div>
 				              </form>

@@ -4,9 +4,16 @@
 			<div class="row">
 				<div class="col-lg-8">
                     <div>
-					    <h3 style="text-align: center; font-weight: bold; padding-top: 40px">TENTANG GROCERIA</h3>
+					    <h3 style="text-align: center; font-weight: bold; padding-top: 40px; padding-bottom: 5px">TENTANG GROCERIA</h3>
                     </div>
-					<span class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal"  style="padding-bottom: 10px;">Groceria adalah sebuah website e-commerce yang menyediakan berbagai macam bumbu dan bahan untuk memasak.</span>
+					<p class="zm-subtitle zm-mb_r-2 zm-font-left zm-font-normal"  style="padding-bottom: 10px; justify-content: center">Groceria adalah sebuah website e-commerce yang menyediakan berbagai macam bumbu dan bahan untuk memasak.
+                    Ada beberapa kategori yang terdapat di website Groceria ini. Pertama, ada kategori daging yang berisi beberapa olahan daging, contohnya daging sapi dengan potongan dadu ataupun ada daging ayam fillet.
+                    Kedua, ada kategori ikan yang berisi macam-macam ikan dengan berbagai olahan juga, contohnya ada dagi ikan salmon dan daging ikan tuna potong dadu.
+                    Ketiga, ada kategori bumbu yang berisi cabai, bawang, dan teman-temannya lagi.
+                    Keempat, ada kategori buah yang berisi buah jeruk, buah alpukat, dan buah-buah yang lain.
+                    Kelima, ada kategori sayur yang berisi macam-macam sayuran segar.
+                    Dan yang terakhir ada kategori resep. disana terdapat banyak resep dari berbagai olahan masakan. Resep ini juga menjadi saran kepada ibu-ibu muda yang baru memiliki keluarga dan belum tahu ingin masak apa.
+                    </p>
                     <div class="row zm-pt-30">
                         <div class="col-lg-12">
 
