@@ -17,8 +17,29 @@
                             <h4 style="font-size: 14px;margin-left: 5px;">'. $row->nama_barang . '</h4>
                             <p style="margin-left: 5px;margin-bottom: 5px;color: rgb(0,0,0);">Rp.'.number_format($row->harga) . '</p>
                            
-                            <button class="btn btn-primary text-left border-white shadow-none d-lg-flex justify-content-lg-center align-items-xl-center" type="button"onclick ="addtocart('.$row->id_barang.')"  style="height: 35px;font-size: 14px;width: 90%;margin-left: 12px;background-color: #ea4335;">add to cart&nbsp;<i class="fa fa-cart-plus" style="font-size: 16px;"></i>
-                            </button>
+                            <div class="row d-xl-flex justify-content-xl-center" style="margin-left: 0px;margin-right: 0px;width: 100%;">
+                            <div class="col d-xl-flex justify-content-xl-center" style="width: 100%;">
+                            <div id="Success-Button" style="width: 200px;"><button class="btn btn-success" data-toggle="modal" onclick ="addtocart('.$row->id_barang.')" data-target="#succesalert" type="button"  style="width: 200px;height: 35px;background-color: rgb(234,67,53);font-size: 14px;">add to cart&nbsp;<i class="fa fa-cart-plus" style="font-size: 16px;"></i></button>
+                            <div class="modal fade"
+                                role="dialog" tabindex="-1" id="succesalert">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-body d-xl-flex align-items-xl-center" id="successalert" style="color: green;height: 300px;">
+                                            <div class="d-xl-flex justify-content-xl-center" style="width: 100%;color: rgb(222,49,11);">
+                                                <div class="row">
+                                                <div class="col-xl-4 d-block d-xl-flex justify-content-xl-center align-items-xl-center" style="font-size: 80px;width: 100%;"><i class="fa fa-check-circle" style="width: 100%;"></i></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col d-block d-xl-flex justify-content-xl-start align-items-xl-center" style="width: 100%;"><span class="d-xl-flex" style="font-size: 25px;"><strong> Sukses! </strong>&nbsp;Barang ditambahkan</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
                         </div>
                     </div>';
                 }?>

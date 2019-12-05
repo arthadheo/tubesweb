@@ -104,6 +104,7 @@
                 if ($y->item(0)->nodeType==1) {
                 //find a link matching the search text
                 if (stristr($y->item(0)->childNodes->item(0)->nodeValue,$q)) {
+
                     if ($hint=="") {
                     $hint="<a href='".base_url()."mainpage/detail/".
                     $z->item(0)->childNodes->item(0)->nodeValue .
